@@ -1,0 +1,97 @@
+.panel-control{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    height: 64px;
+    max-width: 1192;
+}
+.nav-log{
+    display: flex;
+    align-items: center;
+}
+.panel-control img{
+    height: 45px;
+}
+.nav-1{
+    width: 120px;
+    background-color: #f7f7ff;
+    color: #808080;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+align-items: center;
+}
+.nav-1 img{ 
+    width: 24px;
+    height: 24px;
+}
+
+/* buscador de cosas*/
+.buscador{
+    height: 60px;
+    background-color: #f7f7ff;
+    color: #808080;
+}
+.nav-log-ico {
+    display: flex;
+    justify-content: right;
+}
+
+.nav-2{
+    width: 120px;
+    background-color: #f7f7ff;
+    color: #808080;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.buscador{
+    width: 400px;
+    
+    height: 45px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buscador > div{
+    background-color: #f7f7ff;
+    width: 372px;
+    height: 45px;
+    border-radius: 15px;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buscador > div div{
+    width: 27.5px;
+    height: 27.5px;
+    background-color: rgb(240, 118, 29);
+    color: white;
+    border-radius: 1px;
+}
+.buscador>div div span{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buscador input{
+    width: 100%;
+    border: none;
+    background-color: #f7f7ff;
+}
+
+/* iconos de cosas*/
+.panel-iconos{
+    width: 600px;
+    height: 60px;
+    background-color: gray;
+    inline-size: none;
+    outline: none;
+}
+
+
